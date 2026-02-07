@@ -1,0 +1,43 @@
+- Como sabemos tudo na internet parece "mágica",mas não é bem assim,quando acessamos um site tudo parece funciona conforme o esperado,mas por debaixo dos panos temos uma infraestrutura totalmente complexa.Nesse arquivo você irá ver em detalhes a arquitetura client-server,esse tipo está presente em toda a internet HTTP/HTTPS.
+
+
+* Como funciona a arquitetura Client-Server ? {
+    - Essa arquitetura está presente em toda a internet,sendo um dos pilares do desenvolvimento de sistemas de larga escalas com milhões ou até bilhões de usuários.Essa arquitetura organiza a forma como os dispositivos interagem entre si.
+
+    - Primeiro temos o cliente,o cliente pode ser qualquer dispositivos (computador,celular e etc) que consiga envia uma solicitação (requisição - pedido de recurso) ao sistema centralizado (servidor).O cliente não precisa saber como o servidor funciona por debaixo dos panos,apenas como enviar a solicitação e receber a resposta.Já o servidor por sua vez é o sistema responsável por fazer tudo funciona,ele recebe as solicitações dos clientes,processa os pedidos e envia uma resposta contendo um código de status.O servidor pode armazena uma aplicação ou site,armazenar dados ou gerencia uploads de arquivos.Ele é projetado para lidar com múltiplos clientes simultaneamente, respondendo às suas solicitações de forma eficiente.  
+}
+
+* Como funciona a comunicação ? {
+    - Quando o usuário atŕaves de um aplicativo ou interface amigavel acessa um site,é gerado uma requisição.Por exemplo, ao acessar um site, o navegador do cliente solicita os arquivos HTML, CSS e JavaScript do servidor que hospeda o site.
+    - O servidor processa a solicitação: O servidor recebe a requisição, busca os dados necessários (arquivos, imagens, respostas de um banco de dados, etc.) e os processa.
+    - O servidor envia a resposta: Após o processamento, o servidor responde ao cliente com os dados solicitados. No exemplo de um site, isso poderia incluir a página web formatada que será exibida no navegador do cliente.
+    - O cliente exibe os dados: O cliente então exibe os dados processados ou resultados para o usuário final.
+
+    - Essa comunicação geralmente utiliza o protocolo HTTP,mas a servidores e clientes que utiliza outros protocolo baseados em client-server,como o FTP e o SMTP (para envio de e-mails)
+}
+
+* Exemplo de aplicações cliente-servidor: {
+    - Abaixo está listado os exemplo de aplicações mais comum.
+
+
+    1 - Navegação Web: A interação entre navegadores e servidores web é um dos exemplos mais comuns dessa arquitetura. Quando você acessa um site, seu navegador (cliente) faz uma solicitação HTTP ao servidor web, que responde com o conteúdo da página.
+
+    2 - Aplicativos de Banco de Dados: Em sistemas de banco de dados, o cliente pode ser uma aplicação que precisa acessar ou manipular dados. O servidor é responsável por processar consultas SQL, gerenciar transações e garantir a consistência dos dados.
+
+    3 - Jogos Online: Em muitos jogos multiplayer, a arquitetura cliente-servidor garante que as interações entre os jogadores sejam coordenadas por um servidor central, que armazena o estado do jogo e distribui as atualizações para os clientes. Isso previne inconsistências e garante uma experiência uniforme para todos os jogadores.
+}
+
+* Principais beneficios dessa arquitetura: {
+    - Escalabilidade: Com o aumento da demanda e numero de client é possivel adicionar e criar mais instacias de servidores.Isso é conhecido como escalabilidade horizontal.
+
+    - Centralização: O processamento pesado e o armazenamento de dados ocorrem no servidor, o que reduz a carga nos dispositivos clientes e facilita a manutenção e atualizações no servidor central.
+
+    - Segurançã: A centralização do servidor permite um controle maior sobre os dados dos usuários,isso permite aplicar e gerenciar politicas de seguranças robusta,aumentando a segurança de todo o servidor. 
+
+    - Manutenção Simplificada: A atualização do software pode ser feita no servidor, o que evita a necessidade de atualizar todos os clientes individualmente.
+}
+
+- A arquitetura cliente-servidor é amplamente utilizada porque fornece uma maneira eficiente e escalável de gerenciar e processar dados. Ao separar claramente as responsabilidades entre clientes e servidores, essa arquitetura facilita o desenvolvimento, a manutenção e a expansão de sistemas complexos. Seja em aplicativos da web, bancos de dados corporativos ou jogos online, o modelo cliente-servidor continuará desempenhando um papel vital na tecnologia, evoluindo para atender às crescentes demandas de conectividade e desempenho da era digital. 
+
+
+Fonte Utilizada: https://www.dio.me/articles/arquitetura-cliente-servidor-fundamentos-e-aplicacoes

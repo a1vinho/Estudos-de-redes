@@ -1,4 +1,4 @@
-- Nesse arquivos iremos falar em detalhes sobre o qué e como funciona uma rede de computadores.Como sabemos na internet tudo funciona atráves de uma ligação gigantesca de redes de computadores e dispositivos.Mas para entedermos em detalhes precisamos sabe como funciona uma rede simples.
+- Nesse arquivos iremos falar em detalhes sobre o que e como funciona uma rede de computadores.Como sabemos na internet tudo funciona atráves de uma ligação gigantesca de redes de computadores e dispositivos.Mas para entedermos em detalhes precisamos sabe como funciona uma rede simples.
 
 
 * O que é uma rede ? {
@@ -19,7 +19,7 @@
 
 * Os principais tipos de redes {
     - LAN (Rede de ÁREA LOCAL): Esse tipo de rede conectar dispositivos em local de aréa restrita,como casas,predios ou escritorios.Utilizando cabos ou wifi.Como essas redes tem alcance limitado,o compartilhamento de arquivos e dados entre os dispositivos conectados são mais rapidos e eficiente.
-    
+
     - WAN (Rede de longa distancia): Esse tipo de rede é uma junção de várias redes menores (LANS) que se conectar em uma área geografica muito longa (cidades,paises,continetes).A internet é o maior exemplo de WAN.
 
     - MAN (Rede de Área metropolitana): Esse tipo de rede é responsável por interliga cidades ou predios,ela é menor que uma WAN e maior que uma LAN.
