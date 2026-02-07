@@ -1,0 +1,331 @@
+- Esse diretório tem como objetivo estudar e compreende em detalhes os funcionamentos das redes,protocolos,proxys,vpns e outros assuntos importantes.
+
+
+
+🧭 ROADMAP – REDES, PROXY E VPN (do zero)
+🔹 FASE 0 – Fundamentos essenciais (base de tudo)
+
+👉 Sem isso, todo o resto vira confusão.
+
+O que estudar
+
+O que é uma rede
+
+LAN, WAN, MAN, PAN
+
+Cliente x Servidor
+
+Pacotes de dados
+
+Latência, banda, throughput
+
+Fontes
+
+🎥 Curso em Vídeo – Redes de Computadores (YouTube)
+Procure por: “Curso em Vídeo Redes de Computadores”
+
+📖 Artigo: “O que é uma rede de computadores?” (Alura, Medium, etc.)
+
+Prática
+
+Observe sua rede de casa:
+
+Quantos dispositivos?
+
+Wi-Fi vs cabo
+
+Use ping no terminal:
+
+ping google.com
+
+
+💡 Objetivo da fase: entender o que está acontecendo quando você acessa a internet.
+
+🔹 FASE 1 – TCP/IP e Modelo OSI (o mapa mental)
+
+👉 Isso é o “esqueleto” das redes.
+
+O que estudar
+
+Modelo OSI (7 camadas)
+
+Modelo TCP/IP
+
+Função de cada camada
+
+Protocolos famosos:
+
+HTTP / HTTPS
+
+TCP / UDP
+
+IP
+
+ICMP
+
+Fontes
+
+🎥 YouTube: “Modelo OSI explicado”
+
+🎥 Professor Messer – Network+ (inglês, excelente)
+
+📖 Artigo: “Modelo OSI vs TCP/IP”
+
+Prática
+
+Tente responder:
+
+“Quando acesso um site, quais camadas entram em ação?”
+
+💡 Dica mental:
+OSI = explicação
+TCP/IP = realidade
+
+🔹 FASE 2 – Endereçamento IP (onde tudo começa)
+
+👉 Aqui muita gente trava — mas a gente vai com calma.
+
+O que estudar
+
+IPv4
+
+Endereço IP público x privado
+
+Máscara de rede
+
+Gateway
+
+DNS (muito importante)
+
+DHCP
+
+Fontes
+
+🎥 YouTube: “Endereçamento IP explicado para iniciantes”
+
+🎥 Curso em Vídeo – IP e Máscara
+
+📖 Artigos simples sobre DNS
+
+Prática
+
+No terminal:
+
+ipconfig   # Windows
+ifconfig   # Linux/Mac
+
+
+Descubra:
+
+Seu IP
+
+Gateway
+
+DNS
+
+💡 Objetivo da fase: saber quem é quem na rede.
+
+🔹 FASE 3 – Equipamentos de rede
+
+👉 Aqui a rede vira algo “físico”.
+
+O que estudar
+
+Modem
+
+Roteador
+
+Switch
+
+Firewall
+
+Access Point
+
+Fontes
+
+🎥 YouTube: “Diferença entre modem, roteador e switch”
+
+📖 Artigos introdutórios
+
+Prática
+
+Acesse o roteador da sua casa (ex: 192.168.0.1)
+
+Veja:
+
+DHCP
+
+Firewall
+
+Port forwarding
+
+🔹 FASE 4 – Protocolos importantes
+
+👉 A linguagem da rede.
+
+O que estudar
+
+HTTP x HTTPS
+
+FTP / SFTP
+
+SMTP / POP / IMAP
+
+ARP
+
+NAT
+
+Fontes
+
+🎥 YouTube: “Protocolos de rede explicados”
+
+📖 Artigos por protocolo (um de cada vez!)
+
+Prática
+
+Use o navegador:
+
+Veja diferença entre HTTP e HTTPS
+
+Use nslookup ou dig
+
+🧱 AGORA ENTRAMOS NO FOCO: PROXY & VPN
+🔹 FASE 5 – Proxy (controle e intermediação)
+
+👉 Proxy ≠ VPN (muita gente confunde).
+
+O que estudar
+
+O que é um proxy
+
+Forward proxy x Reverse proxy
+
+Proxy transparente
+
+Cache
+
+Proxy corporativo
+
+Fontes
+
+🎥 YouTube: “O que é Proxy?”
+
+📖 Artigos sobre Squid Proxy
+
+🎥 Nginx como reverse proxy
+
+Prática
+
+Entender cenários:
+
+Empresa bloqueando sites
+
+Balanceamento de carga
+
+Cache de conteúdo
+
+💡 Frase-chave:
+Proxy = intermediário da aplicação.
+
+🔹 FASE 6 – VPN (túnel seguro)
+
+👉 Aqui entra segurança.
+
+O que estudar
+
+O que é VPN
+
+Tunelamento
+
+Criptografia (conceito)
+
+VPN site-to-site
+
+VPN client-to-site
+
+Protocolos VPN
+
+OpenVPN
+
+WireGuard
+
+IPSec
+
+L2TP
+
+Fontes
+
+🎥 YouTube: “Como funciona uma VPN”
+
+📖 Documentação do OpenVPN
+
+🎥 WireGuard explicado
+
+Prática
+
+Criar uma VPN simples (mais pra frente):
+
+OpenVPN
+
+WireGuard
+
+💡 Frase-chave:
+VPN = túnel criptografado na rede.
+
+🔬 FASE 7 – Laboratórios (muito importante)
+
+👉 É aqui que tudo fixa.
+
+Ferramentas
+
+🧪 Packet Tracer (Cisco) – iniciante friendly
+
+🧪 Wireshark – ver pacotes na prática
+
+🧪 VirtualBox + Linux
+
+Labs simples
+
+Criar duas VMs e testar comunicação
+
+Capturar pacotes com Wireshark
+
+Ver DNS, HTTP, TCP na prática
+
+📚 Fontes principais (resumo)
+
+YouTube:
+
+Curso em Vídeo
+
+Professor Messer
+
+NetworkChuck (mais prático)
+
+Prática:
+
+Packet Tracer
+
+Wireshark
+
+Leitura:
+
+Medium
+
+Alura (se puder pagar)
+
+Docs:
+
+OpenVPN
+
+WireGuard
+
+🧠 COMO ESTUDAR (importante)
+
+Não estude tudo de uma vez
+
+70% prática / 30% teoria
+
+Sempre se pergunte:
+
+“Isso acontece em qual camada?”

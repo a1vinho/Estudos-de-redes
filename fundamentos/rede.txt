@@ -1,0 +1,28 @@
+- Nesse arquivos iremos falar em detalhes sobre o qué e como funciona uma rede de computadores.Como sabemos na internet tudo funciona atráves de uma ligação gigantesca de redes de computadores e dispositivos.Mas para entedermos em detalhes precisamos sabe como funciona uma rede simples.
+
+
+* O que é uma rede ? {
+    - Uma rede em termos simples nada mas é do que uma conexão entre dois ou mais dispositivos,esses dispositivos geralmente troca dados e se comunica entre si.
+    
+    - Por exemplo: Digamos que nós temos um celular com o roteador ligado,também temos mais dois dispositivos que se conectar a esse roteador.Simples,agora temos uma rede de dispositivos,onde cada entidade conectada pode ser comunica entre si.
+
+    - Mas os dispositivos podem se conectar por dois tipos principais de meios de conexão (fisico - conexão via cabo,wifi - conexão sem vio ou conexão via radio)
+}
+
+* principais aspectos de uma rede {
+    - Cada dispositivos conectado dentro de uma rede é chamado de nó e onde cada nó pode ter seu proprio meio de conexão.
+    - As redes no geral utiliza o protocolo TCP/IP que permite que diferentes dispositivos (nós) conectados consiga entender uns aos outros.
+    - Permite compatilhar recursos entre os dispositivos,como servidores de arquivos ou aplicações,impressoras e etc...
+}
+
+- Cada dispositivos conectados em uma rede,utiliza um sistema de regras e padrões chamados de protocolos de comunicação para poder transmitir informações por meio de tecnologias com ou sem fio
+
+* Os principais tipos de redes {
+    - LAN (Rede de ÁREA LOCAL): Esse tipo de rede conectar dispositivos em local de aréa restrita,como casas,predios ou escritorios.Utilizando cabos ou wifi.Como essas redes tem alcance limitado,o compartilhamento de arquivos e dados entre os dispositivos conectados são mais rapidos e eficiente.
+    
+    - WAN (Rede de longa distancia): Esse tipo de rede é uma junção de várias redes menores (LANS) que se conectar em uma área geografica muito longa (cidades,paises,continetes).A internet é o maior exemplo de WAN.
+
+    - MAN (Rede de Área metropolitana): Esse tipo de rede é responsável por interliga cidades ou predios,ela é menor que uma WAN e maior que uma LAN.
+
+    - PAN: Esse é o menor tipo de redes de todos.Esse tipo é geralmente utilizado para conectar dispositivos pessoais,geralmente ligados a uma única pessoa.Esse tipo de rede geralmente utiliza a tecnologias bluetooth para uma interconexão,seu alcance é de centimetros a poucos metros.
+}
