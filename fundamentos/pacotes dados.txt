@@ -17,7 +17,7 @@
         
         4 - Perca dos dados:Outra grande vantagem dessa tecnica é quando um pacote acaba sendo corrompido ou perdido no meio do caminho,como os pacotes são independetes entre si,apenas aquele pedaço será reenviado,dando continuade ao destino.
     }
-    - Os pacotes são transmitidos utilizando uma vários protocolos.O protocolo fundamental para a transmissão dos pacotes é o IP (internet protocol),ele é o responsável por endereça os dispositivo em uma rede (publica ou privada),permitindo o envio e recebimento dos pacotes.  
+    - Os pacotes são transmitidos utilizando uma vários protocolos.O protocolo fundamental para a transmissão dos pacotes é o IP (internet protocol),ele é o responsável por endereça os dispositivo em uma rede (publica ou privada),permitindo o envio e recebimento dos pacotes.Já o protocolo responsável pela ordem correta e envio dos pacotes é o protocolo TCP (Transmission Control Protocol),ele é o protocolo responsável por solicita reenvio caso algum pacote se perca,também garante confiabilidade dos dados
 }
 
 fonte utilizada: https://www.lenovo.com/br/pt/glossary/packet-switching/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOopkujuDlgTAi31k-OVjyQsqe3UOfH7c1CayyXwXKVcCASMPYxKY
