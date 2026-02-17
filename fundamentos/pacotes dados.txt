@@ -1,0 +1,23 @@
+- Na internet temos algo chamado pacotes,os pacotes são um segmento(pedaço) de uma mensagem maior.Os dados enviados de uma rede de computadores,como a internet,são dividios em pacotes.Esses pacotes enviados são então reconstruindo pelo destinatario que o recebe,são reconstruindo na ordem correta.
+
+- Os pacotes funciona da seguinte forma:Digamos que um cliente acessou nosso site e precisa carrega uma imagem do servidor para o seu computador,a imagem não vai do servidor diretamente para o computador do usuário,ao invés disso,cada pedaço da imagem é enviada por caminhos diferentes,onde o computador do usuário fica responsável por remontar cada pedaço.
+
+- Os pacotes são utilizados por que dividir os dados torna a manipulação das informações mais gerenciaveis e a transmissão além de mais rapida,eficiente.Digamos que queremos envia um pacote de 5gb,ao invés de enviamos esse pacote todo,podemos dividi-lo e facilita o gerenciamento pelo destinatário.Essa tecnica de divisão de pacotes se chama comutação de pacotes,a internet é uma rede inteira de comutação de pacotes.
+
+*** O que é a comutação de pacotes *** {
+
+    - A comutação de pacotes é a tecnica eficiente de dividir grandes messagens ou dados em partes menores.Os pacotes dividido viajam de maneira independete,podendo seguir caminhos ou rotas diferentes até o destinatario,e chegando fora de ordem,sendo remotando pelo destinatario.
+
+    * Principais caracteristicas {
+        1 - Eficiencia: Por causa da comutação de pacotes,varios usuários podem compartilha informações na mesma rede de maneira simultanea.
+
+        2 - Headers: Quando enviamos um dado ele é divido pela comutação,os seus pedaços são rotulado com os headers,contendo informações do dispositivo de origem e destino,junto com a carga útil (dados).
+
+        3 - Congestionamento: Uma das princiapis vantagens da comutação de pacotes e que essa tecnica evita o Congestionamento dos dados.Como os pacotes podem seguir rotas de maneira independete,eles podem evitar rotas ou caminhos que o congestionamento de dados esteja muito alto,indo por um caminho "mais facil"
+        
+        4 - Perca dos dados:Outra grande vantagem dessa tecnica é quando um pacote acaba sendo corrompido ou perdido no meio do caminho,como os pacotes são independetes entre si,apenas aquele pedaço será reenviado,dando continuade ao destino.
+    }
+    - Os pacotes são transmitidos utilizando uma vários protocolos.O protocolo fundamental para a transmissão dos pacotes é o IP (internet protocol),ele é o responsável por endereça os dispositivo em uma rede (publica ou privada),permitindo o envio e recebimento dos pacotes.  
+}
+
+fonte utilizada: https://www.lenovo.com/br/pt/glossary/packet-switching/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOopkujuDlgTAi31k-OVjyQsqe3UOfH7c1CayyXwXKVcCASMPYxKY
